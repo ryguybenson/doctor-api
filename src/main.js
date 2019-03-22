@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './sass/styles.scss';
 
 
-$(document).ready(function(){
+
   $('#submit').click(function() {
     // event.preventDefault();
     let promise = new Promise(function(resolve, reject) {
@@ -29,7 +29,6 @@ $(document).ready(function(){
       $('.error').text(`There was an error processing your request: ${error.message}`);
     });
   });
-});
 // $(document).ready(function() {
 //   $('#submit').click(function() {
 //     // let city = $('#location').val();
