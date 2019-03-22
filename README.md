@@ -25,7 +25,7 @@ _This application uses the BetterDoctor API to recieve a list of doctors in the 
 
 ## Known Bugs
 
-_There are no know bugs._
+_There are many know bugs._
 
 ## Support and contact details
 
