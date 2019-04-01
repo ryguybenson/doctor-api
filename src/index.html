@@ -1,23 +1,19 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <script type="text/javascript" src="bundle.js"></script>
-  <title>doctor api</title>
-</head>
-<body>
-  <div class="container">
-    <form id="input">
-      <label for="one">issue</label>
-      <input type="text" id="one">
-      <button id="submit">check</button>
-    </form>
-    <!-- appears for a plsit second only?????? -->
-    <div class="result">
+  <head>
+    <title>DoctorAPI</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="doctor-form">
+        <h1>Available Doctors Near You</h1>
+        <label for="symptom">Your symptom:</label>
+        <input id="symptom" type="text">
+        <label for="doctor">Doctor's last name:</label>
+        <input id="doctor" type="text">
+        <button type="submit">Find available doctors</button>
+      </form>
+      <ul id="nameResults"></ul>
+      <div id="showErrors"></div>
     </div>
-    <div class="error">
-    </div>
-  </div>
-
-  </form>
-</body>
+  </body>
 </html>
