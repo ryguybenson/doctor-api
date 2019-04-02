@@ -19,7 +19,11 @@ _This application uses the BetterDoctor API to recieve a list of doctors in the 
 * _Clone the repository from the "url"_
 * _Open the repository in your preferred web browser_
 * _Run 'npm install' in your preferred terminal(node.js must be downloaded on the computer)._
-* _Open the index.html in your preferred web browser to view the application._
+* _Create a .env file_
+* _Go to <a href="BetterDoctor.com">Better Doctor</a> to get your own API key._
+* _Enter API key under name exports.API_KEY._
+* _Run 'npm run start' in your terminal to open the application in your preferred web browser._
+
 
 
 
